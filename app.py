@@ -141,7 +141,7 @@ st.sidebar.info(f"Total Importir: {rfm['importer_name'].nunique():,}")
 
 # --- PAGE 1: OVERVIEW & RFM ---
 if page == "Overview & RFM":
-    st.title("📊 Dashboard Segmentasi Pelanggan (RFM)")
+    st.title("📊 Dashboard Segmentasi Pelanggan RFM KSO SCISI")
     
     # 1. BAR CHART SEGMENTASI (UTAMA)
     st.subheader("Distribusi Pelanggan per Segmen")
