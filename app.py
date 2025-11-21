@@ -84,7 +84,7 @@ SEGMENT_ORDER = list(SEGMENT_INFO.keys())
 # ==========================================
 def check_password():
     def password_entered():
-        if st.session_state["password"] == "kso123":
+        if st.session_state["password"] == "episi2025":
             st.session_state["password_correct"] = True
             del st.session_state["password"]
         else:
